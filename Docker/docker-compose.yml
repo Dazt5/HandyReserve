@@ -7,7 +7,7 @@ services:
     restart: always
     environment:
       POSTGRES_DB: miBDD
-      POSTGRES_USER: root
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: SuperSegura123
     ports:
       - "5432:5432"
